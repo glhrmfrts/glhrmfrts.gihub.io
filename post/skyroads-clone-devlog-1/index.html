@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title> Skyroads clone devlog #1 - 3 months &middot; Guilherme Nemeth </title>
+
+
+<link rel="stylesheet" href="https://glhrmfrts.github.io/css/slim.css">
+<link rel="stylesheet" href="https://glhrmfrts.github.io/css/highlight.min.css">
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Source+Code+Pro' rel='stylesheet' type='text/css'>
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/favicon.ico">
+
+
+<link href="" rel="alternate" type="application/rss+xml" title="Guilherme Nemeth" />
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+  <h1 class="site-title"><a href="https://glhrmfrts.github.io/">Guilherme Nemeth</a></h1>
+  <p class="site-tagline"></p>
+  <div class="nav">
+    <a class="nav-btn" href="#">
+      <span class="ci ci-burger"></span>
+    </a>
+    <ul class="nav-list">
+       
+	  <li class="spacer">&ac;</li>
+  
+    </ul>
+  </div>
+</div>
+    <div class="content">
+      <div class="posts">
+        <div class="post">
+          <h2 class="post-title"><a href="https://glhrmfrts.github.io/post/skyroads-clone-devlog-1/">Skyroads clone devlog #1 - 3 months</a></h2>
+          <span class="post-date">Dec 24, 2016 </span>
+          <div class="post-content">
+            
+
+<p>It&rsquo;s christmas evening and I&rsquo;m here writing my first devlog. I decided to do these because I think I can keep better track of my progress and it&rsquo;s also nice to share ideas, it might come to be useful for someone someday.</p>
+
+<p>So, I want to talk about a game I have been working on for about 3 months now, which is much more time than I ever did work on a game.
+As you can tell by the title of this post, it&rsquo;s a Skyroads clone/remake, if you don&rsquo;t know what game Skyroads is, you should definitely look up, it&rsquo;s
+a pretty fun game from the good old DOS times. Originally made by Bluemoon Interactive, Skyroads is a remake itself from an older game from the same
+developer called Kosmonaut, it&rsquo;s one of that games that is &ldquo;easy to learn, hard to master&rdquo; with the gameplay being pretty much you guiding a
+space ship while having to jump some blocks in space, simple right? Well, I advise you to confirm that by yourself ;)</p>
+
+<p>My version of Skyroads is pretty faithful to the original, I only made it prettier and will possibly add some more features in the future, but I really
+need to focus on getting the gameplay solid right now.</p>
+
+<h3 id="tools:8b6050b405ba0e6e352990bee6800a74">Tools</h3>
+
+<p>I&rsquo;m writing the game using <a href="https://libgdx.badlogicgames.com/">libGDX</a>, which is a Java framework for cross-platform games,
+It&rsquo;s the framework/library that I am most familiar with, so I&rsquo;m feeling pretty confortable with the development.</p>
+
+<p>I will also use Blender for modeling the ship&rsquo;s 3D model, every model until now has been hard-coded into the game.</p>
+
+<h3 id="how-the-game-looks-like-now:8b6050b405ba0e6e352990bee6800a74">How the game looks like now</h3>
+
+<p>I&rsquo;ve written too much and showed you nothing, so here it goes:</p>
+
+<p><img src="/skyroads-devlog-1-s1.png" alt="1" />
+<img src="/skyroads-devlog-1-s2.png" alt="2" />
+<img src="/skyroads-devlog-1-s3.png" alt="3" />
+<img src="/skyroads-devlog-1-s4.png" alt="4" />
+<img src="/skyroads-devlog-1-s6.png" alt="6" />
+<img src="/skyroads-devlog-1-s7.png" alt="7" />
+<small>No roads for Andromeda :c</small></p>
+
+<p>&ldquo;Taiho&rdquo; is just a temporary name that I don&rsquo;t even remember what it means. I still haven&rsquo;t come up with a final name, so I&rsquo;m accepting suggestions.</p>
+
+<h3 id="how-the-code-looks-like-now:8b6050b405ba0e6e352990bee6800a74">How the code looks like now</h3>
+
+<p>Well, not great, in fact, pretty ugly. I actually started writing this game more than half a year ago, but gave up after 1 month, and then I started working on it
+again in the middle of November, and my coding style has changed a lot in that short period of time, lots of bad design choices like functions receiving arguments that it
+shouldn&rsquo;t even know it exists, separation of concerns, general code organization, etc&hellip; I wish I had started writing this as an engine and only after I had a working engine
+I should start writing the game itself, but no, everything is mixed up and you can see gameplay code together with physics simulation. Can I fix that? Of course. Will I fix that? mmm, probably not.
+I just have this feeling that I need to &ldquo;ship the product&rdquo; as fast as possible because it has been so much time since I&rsquo;ve &ldquo;finished&rdquo; a game (last was in June 2015) that I need to prove to myself
+that I&rsquo;m able to finish this as quick as possible. After that, I will start working on a new game from scratch, and focus on writing a proper game engine first.</p>
+
+<h3 id="todos:8b6050b405ba0e6e352990bee6800a74">TODOs</h3>
+
+<ul>
+<li>Finish the gameplay mechanics (tile effects, etc&hellip;), I&rsquo;m almost done here.</li>
+<li>Make a proper 3d model for the ship, I still want it to be pretty basic, but anything is better than the fucking rectangle that it is now.</li>
+<li>Make a level editor, editing level files by hand is pretty boring right now, maybe I&rsquo;ll polish it enough that I will leave it there for players who want to build their own levels.</li>
+<li>Make more worlds, there is only &ldquo;Red Heat&rdquo; and &ldquo;Andromeda&rdquo; at the moment, need to come up with some A E S T H E T I C S for the rest, I plan to have 6 worlds, each with 3 roads.</li>
+<li>Support for controllers.</li>
+<li>Optimize the renderer post-processing pipeline, I’m already mentally preparing myself for this.</li>
+</ul>
+
+<p>Hopefully it will be done by March 2017.</p>
+
+<h3 id="open-source:8b6050b405ba0e6e352990bee6800a74">Open source</h3>
+
+<p>The game is not open-source at the moment, I think it hasn&rsquo;t reached a level where it might be useful for anyone yet, specially for the grotesque mistakes that I&rsquo;ve made.
+But I will make it open-source in the future, I just hate when small games like this are not open-source, as ugly as the code maybe, they are still a great source of learning
+for people who want to get into game development and see how that particular game was made.</p>
+
+<h3 id="summary:8b6050b405ba0e6e352990bee6800a74">Summary</h3>
+
+<p>So that is it, this is the project I&rsquo;ve been working on to practice game development, if you liked it, stay tuned for more devlogs. ;)</p>
+
+<p>And also, merry christmas.</p>
+
+          </div>
+        </div>
+        <div class="pagination">
+          <a class="btn previous " href="https://glhrmfrts.github.io/post/skyroads-clone-early-super-alpha-build/"> Prev</a>  
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer">
+  
+  <p>Powered by <a href="http://gohugo.io">Hugo</a>. This theme—Slim—is open sourced on <a href="https://github.com/zhe/hugo-theme-slim">Github</a>.</p>
+  
+</div>
+
+  </div>
+  <script src="https://glhrmfrts.github.io/js/slim.js"></script>
+  <script src="https://glhrmfrts.github.io/js/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+  
+</body>
+
+</html>
