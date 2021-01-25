@@ -1,20 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://glhrmfrts.github.io/</loc>
-    <lastmod>2017-03-11T21:10:06-03:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2021-01-24T23:10:27-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://glhrmfrts.github.io/post/skyroads-clone-early-super-alpha-build/</loc>
-    <lastmod>2017-03-11T21:10:06-03:00</lastmod>
+    <loc>https://glhrmfrts.github.io/page/music/</loc>
+    <lastmod>2021-01-24T23:10:27-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://glhrmfrts.github.io/post/skyroads-clone-devlog-1/</loc>
-    <lastmod>2016-12-24T23:13:40+00:00</lastmod>
+    <loc>https://glhrmfrts.github.io/page/</loc>
+    <lastmod>2021-01-24T23:10:27-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://glhrmfrts.github.io/page/programming/</loc>
+    <lastmod>2021-01-24T23:10:23-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://glhrmfrts.github.io/page/quake/</loc>
+    <lastmod>2021-01-24T22:10:52-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://glhrmfrts.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://glhrmfrts.github.io/tags/</loc>
   </url>
   
 </urlset>
