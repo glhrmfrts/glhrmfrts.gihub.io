@@ -6,7 +6,17 @@
     <description>Recent content on Guilherme Nemeth</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Jan 2021 23:10:27 -0300</lastBuildDate><atom:link href="https://glhrmfrts.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Apr 2022 00:30:45 -0300</lastBuildDate><atom:link href="https://glhrmfrts.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compiler Devlog #1 - Stack-based Intermediate Representation (IR)</title>
+      <link>https://glhrmfrts.github.io/posts/compiler-devlog-1-stack-based-intermediate-representation/</link>
+      <pubDate>Thu, 28 Apr 2022 00:30:45 -0300</pubDate>
+      
+      <guid>https://glhrmfrts.github.io/posts/compiler-devlog-1-stack-based-intermediate-representation/</guid>
+      <description>Prologue So I started writing a compiler around a year ago, worked on it for about a month or two and then lost interest as with most of my side-projects&amp;hellip; tsc tsc.
+Let&amp;rsquo;s be honest, there&amp;rsquo;s very little reason to write a compiler nowadays, if any. Hardware has gotten so powerful and software has gone so complex that we should all just use what&amp;rsquo;s already there. I feel like a Baby-Boomer born inside a Millenial body, because I miss the &amp;ldquo;good old days&amp;rdquo; (when I wasn&amp;rsquo;t even conceived yet).</description>
+    </item>
+    
     <item>
       <title>Music</title>
       <link>https://glhrmfrts.github.io/page/music/</link>
